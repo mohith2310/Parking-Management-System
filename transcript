@@ -1,0 +1,980 @@
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of inv_key_gen.v was successful.
+# Compile of inv_sub_byte.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of shift_row.v was successful.
+# Compile of sub_byte.v was successful.
+# Compile of testkeygen.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 12:49:14 on Nov 29,2019
+# Loading work.stimulus
+# Loading work.parking
+# ** Error: (vsim-3037) C:/Users/mohit/Desktop/car parking system/main.v(48): Missing instance name in instantiation of 'encryption'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1 File: C:/Users/mohit/Desktop/car parking system/main.v
+# ** Error: (vsim-3037) C:/Users/mohit/Desktop/car parking system/main.v(54): Missing instance name in instantiation of 'encryption'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1 File: C:/Users/mohit/Desktop/car parking system/main.v
+# ** Error: (vsim-3037) C:/Users/mohit/Desktop/car parking system/main.v(60): Missing instance name in instantiation of 'encryption'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1 File: C:/Users/mohit/Desktop/car parking system/main.v
+# Error loading design
+# End time: 12:49:14 on Nov 29,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 12:58:30 on Nov 29,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(48): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(48): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(54): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(54): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(60): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(60): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 12:58:31 on Nov 29,2019, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 3
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 14:47:20 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(49): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(49): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(55): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(55): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(61): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(61): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 14:47:20 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 14:51:48 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(49): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(49): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(55): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(55): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(61): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(61): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 14:51:48 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 14:56:20 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(50): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(57): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(64): [PCDPC] - Port size (128) does not match connection size (104) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 14:56:20 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 14:58:38 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(50): [PCDPC] - Port size (128) does not match connection size (88) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(57): [PCDPC] - Port size (128) does not match connection size (88) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Warning: (vsim-3015) C:/Users/mohit/Desktop/car parking system/main.v(64): [PCDPC] - Port size (128) does not match connection size (88) for port 'key'. The port definition is at: C:/Users/mohit/Desktop/car parking system/encryption.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 14:58:38 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 3
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 15:00:12 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 15:00:13 on Nov 30,2019, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v failed with 1 errors.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 15:39:16 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 15:39:16 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 15:42:35 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 15:42:36 on Nov 30,2019, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 15:43:30 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 15:43:30 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of tb_main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 15:47:06 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 15:47:07 on Nov 30,2019, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 16:02:00 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(57): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e2 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(64): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e3 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 16:02:00 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of main.v failed with 3 errors.
+# Compile of main.v failed with 1 errors.
+# Compile of main.v was successful.
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:16:21 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 22:16:22 on Nov 30,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:18:12 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(50): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 22:18:12 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of main.v failed with 2 errors.
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:19:36 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(51): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 22:19:36 on Nov 30,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:20:16 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# Exit=0000000000000000
+quit -sim
+# End time: 22:20:53 on Nov 30,2019, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:22:00 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+# ** Error (suppressible): (vsim-3053) C:/Users/mohit/Desktop/car parking system/main.v(51): Illegal output or inout port connection for port 'en_msg'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/p1/e1 File: C:/Users/mohit/Desktop/car parking system/encryption.v
+# Error loading design
+# End time: 22:22:01 on Nov 30,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Load canceled
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:25:45 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# Exit=0000000000000000
+run
+quit -sim
+# End time: 22:26:17 on Nov 30,2019, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# Compile of tb_main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:26:56 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000011
+# lock = 0000000000000010
+# Exit=0000000000000010
+# entrance=0000000000000101
+# lock = 0000000000000100
+# entrance=0000000000001101
+# lock = 0000000000001100
+# Exit=0000000000000010
+# Exit=0000000000000010
+# entrance=0000000000011101
+# lock = 0000000000011100
+# entrance=0000000000111101
+# lock = 0000000000111100
+# Exit=0000000000000010
+# Exit=0000000000000010
+# entrance=0000000001111101
+# lock = 0000000001111100
+# Exit=0000000000000010
+# entrance=0000000011111101
+# lock = 0000000011111100
+# Exit=0000000000000010
+# Exit=0000000000000010
+# Exit=0000000000000010
+quit -sim
+# End time: 22:27:44 on Nov 30,2019, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# Compile of tb_main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:28:51 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000011
+# lock = 0000000000000010
+# Exit=0000000000000010
+# entrance=0000000000000101
+# lock = 0000000000000100
+# entrance=0000000000001101
+# lock = 0000000000001100
+# Exit=0000000000000010
+# Exit=0000000000000010
+quit -sim
+# End time: 22:31:54 on Nov 30,2019, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 0
+# Compile of tb_main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:32:59 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# Exit=0000000000000000
+quit -sim
+# End time: 22:39:48 on Nov 30,2019, Elapsed time: 0:06:49
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:40:07 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# Exit=0000000000000000
+quit -sim
+# End time: 22:40:38 on Nov 30,2019, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# Compile of tb_main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:41:31 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# Exit=0000000000000000
+quit -sim
+# End time: 22:43:15 on Nov 30,2019, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:48:52 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000000
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# Exit=0000000000000000
+quit -sim
+# End time: 22:49:22 on Nov 30,2019, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:51:02 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# pass1 = e8a59516a710671ef615be66093504dc pass2 = e8a59516a710671ef615be66093504dc
+# Exit=0000000000000001
+quit -sim
+# End time: 22:51:32 on Nov 30,2019, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# Compile of tb_main.v was successful.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 22:52:13 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# pass1 = e8a59516a710671ef615be66093504dc pass2 = e8a59516a710671ef615be66093504dc
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# pass1 = 1daee717286e9903ee69003a74d4ed61 pass2 = 1daee717286e9903ee69003a74d4ed61
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# pass1 = df169ecb47556f3e2e1970fd8a2914a6 pass2 = c912cd989538bea1a6d16ec81a99b159
+# Exit=0000000000000011
+# pass1 = 9e7494913c1a12eb1cf3d7966cb39f50 pass2 = 9e7494913c1a12eb1cf3d7966cb39f50
+# Exit=0000000000000111
+vsim work.stimulus
+# End time: 22:53:04 on Nov 30,2019, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+# vsim work.stimulus 
+# Start time: 22:53:04 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# pass1 = e8a59516a710671ef615be66093504dc pass2 = e8a59516a710671ef615be66093504dc
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# pass1 = 1daee717286e9903ee69003a74d4ed61 pass2 = 1daee717286e9903ee69003a74d4ed61
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# pass1 = df169ecb47556f3e2e1970fd8a2914a6 pass2 = c912cd989538bea1a6d16ec81a99b159
+# Exit=0000000000000011
+# pass1 = 9e7494913c1a12eb1cf3d7966cb39f50 pass2 = 9e7494913c1a12eb1cf3d7966cb39f50
+# Exit=0000000000000111
+quit -sim
+# End time: 22:53:25 on Nov 30,2019, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# Compile of tb_main.v was successful.
+vsim work.stimulus
+# vsim work.stimulus 
+# Start time: 22:53:48 on Nov 30,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# pass1 = e8a59516a710671ef615be66093504dc pass2 = e8a59516a710671ef615be66093504dc
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# pass1 = 1daee717286e9903ee69003a74d4ed61 pass2 = 1daee717286e9903ee69003a74d4ed61
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# pass1 = df169ecb47556f3e2e1970fd8a2914a6 pass2 = df169ecb47556f3e2e1970fd8a2914a6
+# Exit=0000000000001011
+# pass1 = 9e7494913c1a12eb1cf3d7966cb39f50 pass2 = 9e7494913c1a12eb1cf3d7966cb39f50
+# Exit=0000000000001111
+quit -sim
+# End time: 22:54:19 on Nov 30,2019, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# Compile of combined.v failed with 2 errors.
+# Error opening C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v
+# Path name 'C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v' doesn't exist.
+# Error opening C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v
+# Path name 'C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v' doesn't exist.
+# Error opening C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v
+# Path name 'C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v' doesn't exist.
+# Error opening C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v
+# Path name 'C:/Users/mohit/Desktop/car parking system/(vlog-13069) C:/Users/mohit/Desktop/combined.v' doesn't exist.
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of tb_main.v was successful.
+vsim work.stimulus
+# vsim work.stimulus 
+# Start time: 09:00:32 on Dec 01,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# pass1 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx pass2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# pass1 = e8a59516a710671ef615be66093504dc pass2 = e8a59516a710671ef615be66093504dc
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# pass1 = 1daee717286e9903ee69003a74d4ed61 pass2 = 1daee717286e9903ee69003a74d4ed61
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# pass1 = df169ecb47556f3e2e1970fd8a2914a6 pass2 = df169ecb47556f3e2e1970fd8a2914a6
+# Exit=0000000000001011
+# pass1 = 9e7494913c1a12eb1cf3d7966cb39f50 pass2 = 66b990e165a52bee3141406345d4345a
+# Exit=0000000000001011
+quit -sim
+# End time: 09:00:58 on Dec 01,2019, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+close
+# wrong # args: should be "close channelId ?direction?"
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.stimulus
+# vsim work.stimulus 
+# Start time: 09:03:10 on Dec 01,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# Exit=0000000000001011
+# Exit=0000000000001011
+quit -sim
+# End time: 09:03:35 on Dec 01,2019, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v failed with 96 errors.
+# Compile of Round_keys.v failed with 14 errors.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v failed with 48 errors.
+# Compile of shift_row.v was successful.
+# 8 compiles, 3 failed with 158 errors.
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v failed with 14 errors.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 1 failed with 14 errors.
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.stimulus
+# vsim work.stimulus 
+# Start time: 09:10:56 on Dec 01,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# Exit=0000000000001011
+# Exit=0000000000001011
+quit -sim
+# End time: 09:11:18 on Dec 01,2019, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# Compile of main.v was successful.
+# Compile of tb_main.v was successful.
+# Compile of encryption.v was successful.
+# Compile of mix_col.v was successful.
+# Compile of Round_keys.v was successful.
+# Compile of s_box.v was successful.
+# Compile of s_byte.v was successful.
+# Compile of shift_row.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.stimulus
+# vsim work.stimulus 
+# Start time: 09:12:48 on Dec 01,2019
+# Loading work.stimulus
+# Loading work.parking
+# Loading work.encryption
+# Loading work.round_key11
+# Loading work.round_key
+# Loading work.sbox
+# Loading work.sub_byte
+# Loading work.shift_row
+# Loading work.mix_col
+add wave -position end sim:/stimulus/*
+run
+# lock = 0000000000000000
+# Exit=0000000000000000
+# entrance=0000000000000001
+# lock = 0000000000000001
+# Exit=0000000000000001
+# entrance=0000000000000010
+# lock = 0000000000000010
+# Exit=0000000000000011
+# entrance=0000000000000100
+# lock = 0000000000000100
+# entrance=0000000000001100
+# lock = 0000000000001100
+# Exit=0000000000001011
+# Exit=0000000000001011
+quit -sim
+# End time: 09:13:04 on Dec 01,2019, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
